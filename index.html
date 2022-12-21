@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+
+</head>
+<body>
+
+<input type="text" id="id1" placeholder="A">
+<input type="text" id="id2" placeholder="C">
+<button onclick="code1()">Ввести</button>
+
+<script type="text/javascript">
+function code1(){
+var a = document.getElementById("id1").value
+var c = document.getElementById("id2").value
+for(i=0;i<c;i++){
+if((i*a)%c==1){
+alert('ответ:'+ i )
+break;
+}
+}
+}
+
+</script>
+</body>
+</html>
